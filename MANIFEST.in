@@ -1,0 +1,3 @@
+include README.md
+include reactpy_nivo/bundle.js
+include LICENSE
