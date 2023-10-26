@@ -26,7 +26,7 @@ package_dir = os.path.join(here, name)
 package = {
     "name": name,
     "python_requires": ">=3.7",
-    "install_requires": ["reactpy>=0.39.0"],
+    "install_requires": ["pandas>=2.0", "reactpy>=0.39.0", "fastapi==0.103.2"],
     "packages": find_packages(exclude=["tests*"]),
     "description": "Nivo chart data visualization library for ReactPy",
     "author": "Arnav Das",
